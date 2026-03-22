@@ -4,21 +4,12 @@ chrome.runtime.onMessage.addListener((message) => {
   const config = {
     "action-1": {  selector: 'button[aria-label="新聊天"]' },
     "action-2": {  selector: 'button[aria-label="聊天历史记录"]' },
-    // ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
-    // 这里继续往下加就行了！例子：
-    // "action-3": { urls: ["example.com", "baidu.com"], selector: 'button#my-button' },
-    // "action-4": { urls: ["youtube.com"], selector: 'button[aria-label="Like"]' },
-	/*
-	"action-1": { 
-		urls: [],                    // ← 空数组 = 所有页面都尝试
-		selector: 'button[aria-label="新聊天"]' 
-	}
-	"action-1": { 
-		selector: 'button[aria-label="新聊天"]'   // 完全不写 urls 也行
-	}
-	*/
+    // 复制上面任意一行的内容到下一行,只需要修改为
+	// "action-2": {  selector: 'button[]' }, 
+	// 上面的button[]的方框中填入你之前复制的选择器,比如aria-label="新聊天"这种
+	// 不需要改动任何其他代码
     // =========================================================
-    "action-10": { urls: [], selector: '' }
+    "action-10": {selector: '' }
   };
 
   const current = config[cmd];
