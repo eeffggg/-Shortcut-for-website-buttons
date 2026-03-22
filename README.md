@@ -2,6 +2,7 @@
 原版作者：eeffggg
 GitHub：[仓库链接](https://github.com/eeffggg/-Shortcut-for-website-buttons/)
 许可证：GPL-3.0
+(内容在ai的帮助下完成)
 
 类型:浏览器插件
 适用:Chrome浏览器
