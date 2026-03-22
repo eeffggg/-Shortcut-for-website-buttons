@@ -38,6 +38,7 @@ GitHub：[仓库链接](https://github.com/eeffggg/-Shortcut-for-website-buttons
      你应该能看到之前在manifest.json增加的"你要添加的快捷方式的名字" 点击它右侧的铅笔按钮,自定义它的快捷方式
   5:刷新页面, 此时你的快捷方式应该能用了
 
+
 # -Shortcut-for-website-buttons
 Original Author: eeffggg
 GitHub: [Repository Link](https://github.com/eeffggg/-Shortcut-for-website-buttons/)
