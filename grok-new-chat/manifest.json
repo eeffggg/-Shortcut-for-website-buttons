@@ -14,8 +14,10 @@
     }
   ],
   "commands": {
-    "action-1": {"suggested_key": { "default": "Ctrl+K" }, "description": "Grok新建对话" },
-    "action-2": {"description": "Grok历史记录" }
+    "action-1": {"description": "Grok新建对话" },
+    "action-2": {"description": "Grok历史记录" },
+
 	
+    "action-999": {"description": "示例,不要改动此行,只需要复制上面(action-1)的任意一行(改后面数字),然后将双引号内内容修改为你想要的,它仅作为名字使用" }
   }
 }
