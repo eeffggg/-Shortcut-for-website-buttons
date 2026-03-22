@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Grok 多快捷键增强版",
+  "version": "2.1",
+  "description": "任意网页 + 任意快捷键（在 shortcuts 页面自由设置）",
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+    "action-1": {"suggested_key": { "default": "Ctrl+K" }, "description": "Grok新建对话" },
+    "action-2": {"description": "Grok历史记录" }
+	
+  }
+}
